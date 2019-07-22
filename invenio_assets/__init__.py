@@ -72,9 +72,7 @@ Entry points loading
 ++++++++++++++++++++
 
 Invenio-Assets will automatically load bundles defined by the entry point
-group ``invenio_assets.webpack``.
-
-Example:
+group ``invenio_assets.webpack``. Example:
 
 .. code-block:: python
 
@@ -148,9 +146,7 @@ After having initialized the extension you can register bundles:
 Entry points loading
 ++++++++++++++++++++
 Invenio-Assets will automatically load bundles defined by the entry point
-groups ``invenio_assets.bundles``.
-
-Example:
+groups ``invenio_assets.bundles``. Example:
 
 .. code-block:: python
 
@@ -313,6 +309,7 @@ And then in your ``myinstance.js`` script that uses RequireJS:
         // ....
       }
     );
+
 """
 
 from __future__ import absolute_import, print_function
