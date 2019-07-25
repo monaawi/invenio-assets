@@ -67,7 +67,7 @@
     "webpack-yam-plugin": "^1.0.1"
   },
   "engines": {
-    "node": ">= 4.0.0",
+    "node": "6.17.0",
     "npm": ">= 3.0.0"
   }
 }
